@@ -18,17 +18,17 @@ public class Assignment01 {
         numPizzas = in.nextInt(); 
         // stores value for the number of pizzas purchased.
 
+        System.out.println("And how many slices per pizza will we be doing today?");
+        numSlices = in.nextInt(); 
+        // stores value for the number of slices per pizza.
+
         System.out.println("Thank you, and how many adults are eating?");
         numAdults = in.nextInt(); 
         // stores value for the number of adults eating.
 
-        System.out.println("And how many children are eating?");
+        System.out.println("Lastly, how many children are eating?");
         numChildren = in.nextInt(); 
         // stores value for the number of children eating.
-
-        System.out.println("Lastly, how many slices per pizza will we be doing today?");
-        numSlices = in.nextInt(); 
-        // stores value for the number of slices per pizza.
 
         int totalSlices = numPizzas * numSlices; 
         // calculates and stores the total number of slices.
